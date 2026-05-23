@@ -1,0 +1,15 @@
+PImage logo1,logo2,fondo1,makoto,campo,thorfinn_nene,askeladd,thorfinn_feliz,fondo_otoño,fondo_invierno,thorfinn,askeladd_2,thors,canute,fondo_primavera,fondo_pueblito,thorfinn_feliz_2;
+PFont FuenteBoton;
+PFont FuenteTexto;
+float tamFont = 1;
+float width_texto = 1;
+float width_foto = 1;
+float mover_x_izq = -150;
+float mover_x_der = 600;
+float mover_y = 480;
+int estado = 1;
+int estadoAnterior = -1;
+int limite_texto = 600;
+int tiempo = 0;
+int opacidad = 0;
+boolean hover;
